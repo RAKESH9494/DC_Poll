@@ -1,0 +1,44 @@
+.imgStyle{
+  border: 2px solid black;
+}
+.heading{
+  font-family:'Tohoma';
+  font-weight: 400px ;
+  font-size:30px;
+}
+.main{
+  background-color: aqua;
+  height:499px;
+  text-align: center;
+  overflow-y: auto;
+}
+.co{
+overflow-y:hidden;
+padding-top:2.5px;
+}
+.container1{
+  background-color: aqua;
+  height:499px;
+}
+
+.heading1{
+  font-family:'Tohoma';
+  font-weight: 400px ;
+  font-size:20px;
+}
+.viewMAin{
+  background-color:aqua;
+  height:499px;
+  text-align: center;
+  padding-top: 10px;
+  overflow-y:auto;
+}
+.cont{
+  background-color:aqua;
+  height: 499px;
+  text-align: center;
+  font-family: Tahoma;
+}
+.read{
+  font-family:Tahoma;
+}

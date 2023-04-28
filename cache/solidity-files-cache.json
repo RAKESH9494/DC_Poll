@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\KARTHIK'\\Desktop\\iTsMe\\Projects\\DC_Poll\\contracts\\PollingDapp.sol": {
+      "lastModificationDate": 1679760468460,
+      "contentHash": "b48b092220ad250e85a36706b90ed514",
+      "sourceName": "contracts/PollingDapp.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "PollingDapp"
+      ]
+    }
+  }
+}
