@@ -26,8 +26,7 @@ run the application by using command : npm start
 
 HOME : Here user can vote the contesents .
 
-![Screenshot (167)](https://user-images.githubusercontent.com/104605032/235319873-7859b1b0-59ed-4a1f-94d5-8178c8dc4b0d.png)
-
+![Screenshot (166)](https://user-images.githubusercontent.com/104605032/235320274-39d061a7-9ec0-4e6c-bdd1-e96986add611.png)
 
 ADMIN : Where the owner of the smart contract can post the details of contestents.
 
