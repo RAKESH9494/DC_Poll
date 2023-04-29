@@ -1,13 +1,40 @@
-# Sample Hardhat Project
+#Summary 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This is a decentralized platform for voting in contests. The Owner of the smart contract posts the contestants' details, including their name, address, and voting symbol. Users on the network can vote for each contestant once using Metamask. EtherJS is used for interaction between the frontend and the smart contract.ReactJS is used for building the frontend, while Solidity is used for writing the smart contract. Hardhat is used for the local blockchain.
 
-Try running some of the following tasks:
+# Getting Started
+To get started with this project, you'll need to download the repository and set up a local environment.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
+#Prequisites
+Before you can set up a environment, you'll need to have NodeJS installed on your system. You can download it from the official website: https://nodejs.org/en/download
+
+#Running Local Blockchain
+Before running dapp you need to run blockchain server by using below command in command prompt.It will show 20 addresses with private key
+
 npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+
+Note:dont close the command prompt.
+
+#Deploying Smart contract
+
+npx hardhat run scripts/finaldeploy.js --network localhost
+
+#Running Application
+run the application by using command : npm start
+
+#Components 
+
+HOME : Here user can vote the contesents .
+
+![Screenshot (167)](https://user-images.githubusercontent.com/104605032/235319873-7859b1b0-59ed-4a1f-94d5-8178c8dc4b0d.png)
+
+
+ADMIN : Where the owner of the smart contract can post the details of contestents.
+
+![Screenshot (169)](https://user-images.githubusercontent.com/104605032/235319625-f3296481-eaf2-4c4e-bc8b-3b387a0dcdcf.png)
+
+LIVE : Where everyone can see the live results of the contestents.
+
+![Screenshot (170)](https://user-images.githubusercontent.com/104605032/235319822-fd2a36e3-97c1-4cb8-85c7-e5d4ec2c6d9c.png)
+
+CHANGE : It is used to change the address of the wallet
