@@ -1,28 +1,28 @@
-#Summary 
+# Summary 
 
 This is a decentralized platform for voting in contests. The Owner of the smart contract posts the contestants' details, including their name, address, and voting symbol. Users on the network can vote for each contestant once using Metamask. EtherJS is used for interaction between the frontend and the smart contract.ReactJS is used for building the frontend, while Solidity is used for writing the smart contract. Hardhat is used for the local blockchain.
 
 # Getting Started
 To get started with this project, you'll need to download the repository and set up a local environment.
 
-#Prequisites
+# Prequisites
 Before you can set up a environment, you'll need to have NodeJS installed on your system. You can download it from the official website: https://nodejs.org/en/download
 
-#Running Local Blockchain
+# Running Local Blockchain
 Before running dapp you need to run blockchain server by using below command in command prompt.It will show 20 addresses with private key
 
 npx hardhat node
 
 Note:dont close the command prompt.
 
-#Deploying Smart contract
+# Deploying Smart contract
 
 npx hardhat run scripts/finaldeploy.js --network localhost
 
-#Running Application
+# Running Application
 run the application by using command : npm start
 
-#Components 
+# Components 
 
 HOME : Here user can vote the contesents .
 
